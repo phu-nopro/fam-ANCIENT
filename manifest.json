@@ -1,0 +1,31 @@
+{
+  "name": "Auto FW",
+  "description": "Auto ancientrealms.io",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "64": "./images/alienworld.png"
+  },
+  "action": {
+    "default_title": "lam cai chay choi",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ancientrealms.io/play"
+      ],
+      "js": [
+        "./js/jquery.js",
+        "./js/myFam.js"
+      ],
+      "css": [
+        "./css/myCss.css"
+      ]
+    }
+  ]
+}
