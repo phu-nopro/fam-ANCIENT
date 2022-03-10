@@ -1,10 +1,10 @@
 {
-  "name": "Auto FW",
+  "name": "Auto AC",
   "description": "Auto ancientrealms.io",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
-    "64": "./images/alienworld.png"
+    "64": "./images/ancient.png"
   },
   "action": {
     "default_title": "lam cai chay choi",
