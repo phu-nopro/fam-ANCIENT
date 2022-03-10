@@ -2,7 +2,7 @@ async function famWord() {
     while (true) {
         console.log("chay nao:3");
         await delay(2000);
-        await document.querySelector("#app > div.v-application--wrap > div.main-layout > div.sidebar.main-site-background > ul:nth-child(3) > li:nth-child(4) > div").click();
+        await document.querySelector("#app > div.v-application--wrap > div.main-layout > div.sidebar.main-site-background.mobile > ul:nth-child(2) > li:nth-child(4)").click();
         await delay(2000);
         let cl = document.querySelector("#app > div.v-application--wrap > div.main-layout > div.site-content > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div.home-container > div.realm-tab > div > div.monster-panel > div > div.section-wrap > div > div > div:nth-child(4) > div > span");
         await checkHT();
